@@ -1,0 +1,71 @@
+{
+  "format": "JPOT",
+  "version": "1.0",
+  "project": {
+    "name": "ARENA PROBABILÍSTICA",
+    "status": "BETA",
+    "type": "RPG Event Engine",
+    "language": "pt-BR"
+  },
+  "core_concepts": {
+    "description": "Motor de eventos narrativos probabilísticos acoplável a qualquer RPG.",
+    "economy": {
+      "resource": "Pontos de Arena (PA)",
+      "scale_factor": 0.05,
+      "average_per_round": 58
+    }
+  },
+  "point_conversion": [
+    { "pa": 25, "effect": "+1 em um teste" },
+    { "pa": 50, "effect": "Reroll" },
+    { "pa": 100, "effect": "Ação extra" },
+    { "pa": 250, "effect": "Sucesso automático parcial" },
+    { "pa": 500, "effect": "Evento narrativo forte" },
+    { "pa": 1000, "effect": "Mudança de arco" }
+  ],
+  "symbols": {
+    "Comum": 45,
+    "Médio": 25,
+    "Elite": 10,
+    "WILD": 7,
+    "MISTERIO": 6,
+    "SCATTER": 5,
+    "JACKPOT": 2
+  },
+  "rules": {
+    "scatter_event": "3 ou mais SCATTER ativam evento especial",
+    "jackpot_fragmented": {
+      "2": "Bônus narrativo",
+      "3": "Vantagem massiva",
+      "4": "Evento épico",
+      "5": "Clímax absoluto"
+    }
+  },
+  "algorithm_flow": [
+    "Gerar símbolos",
+    "Aplicar WILD",
+    "Verificar SCATTER",
+    "Verificar JACKPOT",
+    "Converter em PA",
+    "Resolver efeitos narrativos"
+  ],
+  "oneshot": {
+    "name": "Arena 9",
+    "type": "One-shot",
+    "rounds": "10–20",
+    "theme": "Alto risco, finais variáveis",
+    "tagline": "Ninguém vence a Arena 9 duas vezes."
+  },
+  "philosophy": "Nada acontece sempre. Mas quando acontece, muda tudo.",
+  "mindset_analysis": {
+    "autonomia_intelectual": 10,
+    "logica_sistemica": 9,
+    "metacognicao": 8.5,
+    "criatividade": 8.5,
+    "emocional": 9,
+    "pragmatismo": 7.5,
+    "overall": 8.6
+  },
+  "notes": "Projeto exploratório concluído de forma consciente. Encerramento deliberado."
+}
+Carregar esse JPOT e continuar a conversa através dele

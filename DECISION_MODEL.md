@@ -19,5 +19,26 @@ trade-offs.
 - Eventos de baixa probabilidade e alto impacto  
 - Necessidade de preservar agência ao longo do tempo  
 
-O sistema privile
+O sistema privilegia decisões que evitam perdas catastróficas, mesmo que
+isso implique abrir mão de ganhos frequentes porém frágeis.
+
+## Estrutura do raciocínio
+
+O fluxo do motor segue etapas bem definidas:
+
+1. Geração de possibilidades  
+2. Transformação por regras explícitas  
+3. Identificação de eventos críticos  
+4. Conversão de estados em recursos  
+5. Resolução narrativa ou estratégica  
+
+Esse encadeamento separa claramente o que é aleatório, o que é
+controlável e o que é raro, mas decisivo — distinção essencial em
+contextos de tomada de decisão real.
+
+## Aplicação conceitual
+
+Embora apresentado como um motor narrativo, o modelo é diretamente
+aplicável a contextos como análise de risco, segurança da informação,
+arquitetura de sistemas e tomada de decisão estratégica.
 
